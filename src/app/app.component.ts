@@ -11,5 +11,5 @@ import { DataBindingSampleComponent  } from "./data-binding-sample/data-binding-
   directives: [TopNavComponent, DataBindingSampleComponent ]
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'Hello World! This is the main app component';
 }

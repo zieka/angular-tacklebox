@@ -1,14 +1,10 @@
-<p>
-  data-binding-sample works!
-</p>
-
 <h1
   (click)="onSelect()"
   [class.clicked]="showDetail === true"
 >
-{{contact.firstname}} {{contact.lastname}}
+  {{contact.firstname}} {{contact.lastname}}
 </h1>
-<input [(ngModel)]="contact.firstname" type="text">  
+<input [(ngModel)]="contact.firstname" type="text">
 <div *ngIf="showDetail === true">
   Phone: {{contact.phonenumber}} <br>
   E-Mail: {{contact.email}}
