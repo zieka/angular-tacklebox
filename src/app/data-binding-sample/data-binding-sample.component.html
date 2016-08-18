@@ -1,11 +1,14 @@
-<h1
-  (click)="onSelect()"
-  [class.clicked]="showDetail === true"
->
-  {{contact.firstname}} {{contact.lastname}}
-</h1>
-<input [(ngModel)]="contact.firstname" type="text">
-<div *ngIf="showDetail === true">
-  Phone: {{contact.phonenumber}} <br>
-  E-Mail: {{contact.email}}
+<div class="m-l-40">
+  <span class="key">Full Name: </span>
+    <span (click)="toggleEdit()"
+      [class.clicked]="showDetail === true"
+      class="value">
+      {{contact.firstname}} {{contact.middlename}} {{contact.lastname}}
+    </span>
+  <div class="value-edit"*ngIf="showDetail === true">
+    First Name: <input [(ngModel)]="contact.firstname" type="text">
+    First Name: <input [(ngModel)]="contact.middlename" type="text">
+    Last Name: <input [(ngModel)]="contact.lastname" type="text">
+    <button class="btn btn-sm btn-secondary" (click)="toggleEdit()">Done</button>
+  </div>
 </div>

@@ -1,3 +1,16 @@
 .clicked{
   color: red;
 }
+.m-l-40 {
+  margin-left: 40px;
+}
+.key {
+  font-weight: 500;
+  padding: 0 15px;
+}
+.value {
+  cursor: pointer;
+}
+.value-edit {
+  margin-left: 116px;
+}

@@ -20,9 +20,8 @@ export class DataBindingSampleComponent implements OnInit {
 
   public contact = {
     firstname: "First",
-    lastname: "Last",
-    phonenumber: "111.222.3333",
-    email: "first.last@mail.com"
+    middlename: "Middle",
+    lastname: "Last"
   };
 
   public showDetail = false;
@@ -30,11 +29,11 @@ export class DataBindingSampleComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log("Component is loaded");
+    console.log("ngOnInit: Data Binding Sample Component");
   }
 
-  onSelect() {
-    this.showDetail = true;
+  toggleEdit() {
+    this.showDetail === true ? this.showDetail = false : this.showDetail = true;
   }
 
 }
