@@ -1,0 +1,17 @@
+.panel.panel-default{
+  max-width: 350px;
+}
+.panel-heading {
+  background: #efefef;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 3px;
+  border: 1px solid #c5c1c1;
+}
+ .panel-title>a {
+    text-decoration: none;
+    color: #4d4e4a;
+ }
+ .panel-collapse{
+    padding: 15px;
+ }
