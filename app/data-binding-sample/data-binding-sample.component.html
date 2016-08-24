@@ -7,7 +7,7 @@
     </span>
   <div class="value-edit"*ngIf="showDetail === true">
     First Name: <input [(ngModel)]="contact.firstname" type="text">
-    First Name: <input [(ngModel)]="contact.middlename" type="text">
+    Middle Name: <input [(ngModel)]="contact.middlename" type="text">
     Last Name: <input [(ngModel)]="contact.lastname" type="text">
     <button class="btn btn-sm btn-secondary" (click)="toggleEdit()">Done</button>
   </div>

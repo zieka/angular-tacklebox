@@ -30,6 +30,7 @@ var barrels = [
     'app/shared',
     'app/top-nav',
     'app/data-binding-sample',
+    'app/accordion',
 ];
 var cliSystemConfigPackages = {};
 barrels.forEach(function (barrelName) {
