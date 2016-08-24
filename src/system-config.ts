@@ -38,6 +38,7 @@ const barrels: string[] = [
   'app/shared',
   'app/top-nav',
   'app/data-binding-sample',
+  'app/accordion',
   /** @cli-barrel */
 ];
 
