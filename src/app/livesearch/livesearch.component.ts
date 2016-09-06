@@ -13,4 +13,12 @@ export class LivesearchComponent implements OnInit {
   ngOnInit() {
   }
 
+  movies = [
+    {"title": "", "genre": "", "director": "", "rating": ""},
+    {"title": "", "genre": "", "director": "", "rating": ""},
+    {"title": "", "genre": "", "director": "", "rating": ""},
+    {"title": "", "genre": "", "director": "", "rating": ""},
+  ]
+
+
 }
