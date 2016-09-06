@@ -39,6 +39,7 @@ const barrels: string[] = [
   'app/top-nav',
   'app/data-binding-sample',
   'app/accordion',
+  'app/livesearch',
   /** @cli-barrel */
 ];
 
