@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: 'livesearch.component.html',
   styleUrls: ['livesearch.component.css']
 })
-export class LivesearchComponent implements OnInit {
+export class LiveSearchComponent implements OnInit {
 
   constructor() { }
 
@@ -14,11 +14,12 @@ export class LivesearchComponent implements OnInit {
   }
 
   movies = [
-    {"title": "", "genre": "", "director": "", "rating": ""},
-    {"title": "", "genre": "", "director": "", "rating": ""},
-    {"title": "", "genre": "", "director": "", "rating": ""},
-    {"title": "", "genre": "", "director": "", "rating": ""},
-  ]
+    {"title": "Star Wars", "genre": "", "director": "", "rating": ""},
+    {"title": "Good Will Hunting", "genre": "", "director": "", "rating": ""},
+    {"title": "Jurassic Park", "genre": "", "director": "", "rating": ""},
+    {"title": "Lord of the Rings", "genre": "", "director": "", "rating": ""},
+    {"title": "Inception", "genre": "", "director": "", "rating": ""}
+  ];
 
 
 }
