@@ -5,8 +5,13 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class CustomfilterPipe implements PipeTransform {
 
-  transform(value: any, args?: any): any {
-    return null;
+  transform(items: any, term: any): any {
+    if (!term) {
+      return items;
+    }
+    term = term.toLowerCase();
+    return items.filter(item =>
+      // item.key.toLowerCase().indexOf(term) !== -1 ||
+    );
   }
-
 }
