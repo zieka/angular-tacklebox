@@ -1,10 +1,10 @@
+<div class="input-group">
+  <input type="text" class="form-control" placeholder="Search" [(ngModel)]="searchTerm">
+  <span class="input-group-addon">
+    <span class="fa fa-search"></span>
+  </span>
+</div>
+
 <lu *ngFor="let movie of (movies | customfilter: searchTerm);">
   <li>{{movie.title}}</li>
 </lu>
-
-<div class="input-group stylish-input-group">
-  <input type="text" class="form-control" placeholder="Search" [(ngModel)]="searchTerm">
-  <span class="input-group-addon">
-    <span class="glyphicon glyphicon-search"></span>
-  </span>
-</div>

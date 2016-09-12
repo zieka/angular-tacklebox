@@ -3,12 +3,12 @@
     <div *ngFor="let panel of accordionPanels;" class="panel panel-default">
       <div class="panel-heading" role="tab" id="heading{{panel.panelid}}">
         <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{panel.panelid}}" aria-expanded="true" aria-controls="collapseONE">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{panel.panelid}}" aria-expanded="false" aria-controls="collapseONE">
             {{panel.title}}
           </a>
         </h4>
       </div>
-      <div id="collapse{{panel.panelid}}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingONE">
+      <div id="collapse{{panel.panelid}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingONE">
         {{panel.description}}
         <ul>
           <li *ngFor="let item of panel.list">{{item}}</li>
