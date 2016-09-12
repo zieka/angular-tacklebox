@@ -1,10 +1,12 @@
 import { Component, OnInit } from '@angular/core';
+import { CustomfilterPipe } from '../customfilter.pipe';
 
 @Component({
   moduleId: module.id,
   selector: 'app-livesearch',
   templateUrl: 'livesearch.component.html',
-  styleUrls: ['livesearch.component.css']
+  styleUrls: ['livesearch.component.css'],
+  pipes: [CustomfilterPipe]
 })
 export class LiveSearchComponent implements OnInit {
 
