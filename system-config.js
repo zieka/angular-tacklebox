@@ -31,6 +31,7 @@ var barrels = [
     'app/top-nav',
     'app/data-binding-sample',
     'app/accordion',
+    'app/livesearch',
 ];
 var cliSystemConfigPackages = {};
 barrels.forEach(function (barrelName) {
