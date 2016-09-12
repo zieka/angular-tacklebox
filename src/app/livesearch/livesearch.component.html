@@ -6,5 +6,5 @@
 </div>
 
 <lu *ngFor="let movie of (movies | customfilter: searchTerm);">
-  <li>{{movie.title}}</li>
+  <li><strong>{{movie.title}}</strong> directed by {{movie.director}}</li>
 </lu>

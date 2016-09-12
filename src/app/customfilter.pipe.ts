@@ -12,9 +12,7 @@ export class CustomfilterPipe implements PipeTransform {
     term = term.toLowerCase();
     return items.filter(item =>
       item.title.toLowerCase().indexOf(term) !== -1 ||
-      item.genre.toLowerCase().indexOf(term) !== -1 ||
-      item.director.toLowerCase().indexOf(term) !== -1 ||
-      item.rating.toLowerCase().indexOf(term) !== -1
+      item.director.toLowerCase().indexOf(term) !== -1
     );
   }
 }

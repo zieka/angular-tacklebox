@@ -16,11 +16,26 @@ export class LiveSearchComponent implements OnInit {
   }
 
   movies = [
-    {"title": "Star Wars", "genre": "", "director": "", "rating": ""},
-    {"title": "Good Will Hunting", "genre": "", "director": "", "rating": ""},
-    {"title": "Jurassic Park", "genre": "", "director": "", "rating": ""},
-    {"title": "Lord of the Rings", "genre": "", "director": "", "rating": ""},
-    {"title": "Inception", "genre": "", "director": "", "rating": ""}
+    {
+      "title": "Star Wars",
+      "director": "George Lucas"
+    },
+    {
+      "title": "Good Will Hunting",
+      "director": "Gus Van Sant"
+    },
+    {
+      "title": "Jurassic Park",
+      "director": "Steven Spielberg"
+    },
+    {
+      "title": "Lord of the Rings",
+      "director": " Peter Jackson"
+    },
+    {
+      "title": "Inception",
+      "director": "Christopher Nolan"
+    }
   ];
 
 
